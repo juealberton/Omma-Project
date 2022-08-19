@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    background-color: #FFC107;
+    height: 117px;
+}
+
+.logo img {
+    width: 324px;
+    height: 84px;
+    margin-top: 15px;
+}
+
+header {
+    text-align: center;
+}
+header nav {
+    text-align: center;
+    background-color: #FFA000;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 55px;
+}
+header nav a {
+    margin: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+body {
+    background-color: #FFFFFF;
+}
+
+
+main {
+    margin-left: 100px;
+}
+
+.parte1 h1 {
+    color: #FFA000;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.risoto img {
+    margin-top: 30px;
+}
+
+section {
+    display: flex;
+}
+
+.h4 {
+    display: flex;
+    margin-top: 10px;
+    color: #176902;
+}
+
+.h4-facil {
+    border: 1px solid #176902;
+    border-radius: 46px;
+    font-size: 18px;
+    width: 95px;
+    height: 31px;
+    padding: 7px 0px 0px 30px;
+}
+
+.h4-serve-4-pessoas {
+    border: 1px solid #176902;
+    border-radius: 46px;
+    width: 196px;
+    height: 31px;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 7px 0px 0px 30px;
+}
+
+.parte1 h3 {
+    margin-top: 80px;
+}
+
+.parte1 ul {
+    list-style: none;
+}
+
+.parte1 ul li {
+    font-size: 18px;
+}
+
+.parte2 iframe {
+    margin-top: 25px;
+}
+
+.parte2 h4 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.p {
+    width: 596px;
+    font-size: 20px;
+    height: 576px;
+    margin-top: 25px;
+}
+
+.receitas-relacionadas {
+    margin-top: 150px;
+    margin-left: 170px;
+}
+
+.receitas-relacionadas h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFA000;
+}
+
+.moqueca {
+    width: 345px;
+    height: 411px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../imagens/moqueca.png );
+    background-repeat: no-repeat;
+}
+
+.moqueca h4 {
+    text-align: center;
+    padding-top: 355px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.bolo-banana {
+    width: 345px;
+    height: 411px;
+    margin-top: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../imagens/bolo-banana.png);
+    background-repeat: no-repeat;
+}
+
+.bolo-banana h4 {
+    text-align: center;
+    padding-top: 355px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.tabule-tradicional {
+    width: 345px;
+    height: 411px;
+    margin-top: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../imagens/tabule.png);
+    background-repeat: no-repeat;
+}
+
+.tabule-tradicional h4 {
+    text-align: center;
+    padding-top: 355px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+}
+
+footer div {
+    height: 119px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+footer div h5 {
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+@media (min-width: 480px) 
+    body {
+      .menu 
+    }
